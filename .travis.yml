@@ -12,10 +12,7 @@ python:
   
 before_install:
   - python --version
-  - pip3 install -U pip
-  - pip3 install -U pytest
-  - pip3 install git+https://github.com/mwsu-csmp/curriculum.git
-  
-script:
-  - pytest
+  - pip install -U pip
+  - pip install -U pytest
+  - pip install git+https://github.com/mwsu-csmp/curriculum.git
   
