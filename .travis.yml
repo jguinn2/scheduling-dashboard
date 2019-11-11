@@ -16,3 +16,5 @@ before_install:
   - pip install -U pytest
   - pip install git+https://github.com/mwsu-csmp/curriculum.git
   
+script:
+  - pytest
