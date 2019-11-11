@@ -16,9 +16,6 @@ before_install:
   - pip3 install -U pytest
   - pip3 install git+https://github.com/mwsu-csmp/curriculum.git
   
-install:
-  - pip3 install ".[test]" .
-  
 script:
   - pytest
   
